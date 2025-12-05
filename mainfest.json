@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "zebegaw",
+  "version": "1.0",
+  "description": "Detect phishing sites ",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
